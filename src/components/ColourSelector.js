@@ -6,7 +6,7 @@ class ColourSelector extends Component {
         name: ""
     }
     
-    onInputChange(event) {
+    onInputChange = (event) => {
         this.setState({ hex: event.target.value });
     }
     
